@@ -1,0 +1,101 @@
+.small-icon {
+  width: 20px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.border-top {
+  border-top: 1px solid #333;
+}
+
+/* FLEX ############################################### */
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+
+
+/* MARGIN / PADDING ################################## */
+
+/* padding 10 */
+.p-10 {
+  padding: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+
+/* padding 20 */
+.p-20 {
+  padding: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+
+/* padding 30 */
+.p-30 {
+  padding: 30px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+
+/* padding 40 */
+.p-40 {
+  padding: 40px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+
+/* border-radius 10 */
+.r-10 {
+  border-radius: 10px;
+}

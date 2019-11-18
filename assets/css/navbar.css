@@ -1,0 +1,35 @@
+nav.navbar {
+  padding: 10px 0;
+}
+
+nav.navbar ul.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+nav.navbar ul.navbar-nav li.nav-item {
+  margin: 0 10px;
+  color: #FFF;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: #FFF;
+  text-decoration: none;
+  stroke: #FFF;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+  color:#fbda16;
+  stroke: #fbda16;
+}
+
+.nav-icon {
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+.nav-icon:hover {
+  vertical-align: top;
+  margin: 0 5px;
+  stroke: #fbda16;
+}

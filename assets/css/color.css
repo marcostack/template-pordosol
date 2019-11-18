@@ -1,0 +1,13 @@
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-gray {
+  background-color: #333;
+}
+
+.bg-yellow {
+  background-color: #fbda16;
+  color: #333;
+}
