@@ -165,6 +165,10 @@
 
 /* BORDER / BOX-SHADOW ################################## */
 
+.border-1 {
+  border: 1px solid #CCC;
+}
+
 .border-top {
   border-top: 1px solid #333;
 }

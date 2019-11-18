@@ -3,6 +3,7 @@
 @import 'color.css';
 @import 'utils.css';
 @import 'card.css';
+@import 'form.css';
 
 * {
   margin: 0;
@@ -111,7 +112,7 @@ embed {
   }
   
   .depositions-people small {
-    color: #666;
+    font: 12px;
   }
 
 }

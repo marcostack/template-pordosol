@@ -1,0 +1,29 @@
+.form-default {
+  max-width: 800px;
+  min-height: 300px;
+  box-shadow: 1px 1px 5px #888;
+}
+
+.form-group {
+  widows: 100%;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+.form-group label {
+  color: #444;
+}
+
+.form-input {
+  margin: 5px 0;
+  padding: 10px 5px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+.form-btn {
+  margin-top: 20px;
+  border-radius: 5px;
+  
+}
