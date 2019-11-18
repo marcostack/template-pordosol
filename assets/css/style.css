@@ -22,6 +22,26 @@ embed {
   max-width: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 @media screen and (min-width: 1024px) {
   body>header {
     width: 100%;
@@ -38,7 +58,7 @@ embed {
   body>footer {
     width: 100%;
     min-height: 100px;
-    background-color: #CCC;
+    background-color: transparent;
   }
 
   section {
@@ -48,7 +68,7 @@ embed {
   div.container {
     max-width: 1200px;
     margin: 0 auto;
-  }  
+  }
 
   img.logo {
     width: 120px;
@@ -59,12 +79,39 @@ embed {
     width: 40%;
     margin: 50px 50px;
   }
+
   .promotion header {
-    margin: 20px 0;  
+    margin: 20px 0;
   }
+
   .promotion h1 {
     font-size: 28px;
     text-transform: uppercase;
   }
+
+  .depositions {
+    font-size: 14px;
+  }
+
+  .depositions h1 {
+    font-size: 28px;
+  }
+
+  .depositions-people {
+    width: 100%;
+    overflow: hidden;;
+  }
+
+  .depositions-people img {
+    margin-right: 15px;
+    float: left;
+  }
+  .depositions-people blockquote {
+    margin: 0 10px 10px 0;
+  }
   
+  .depositions-people small {
+    color: #666;
+  }
+
 }

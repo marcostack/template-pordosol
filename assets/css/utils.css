@@ -14,11 +14,13 @@
   width: 100%;
 }
 
-.border-top {
-  border-top: 1px solid #333;
+
+/* ALING TEXT ############################################### */
+.text-center {
+  text-align: center;
 }
 
-/* FLEX ############################################### */
+/* DISPLAY FLEX ############################################### */
 .d-flex {
   display: flex;
 }
@@ -35,59 +37,125 @@
   justify-content: space-between;
 }
 
+/* DISPLAY GRID ############################################### */
 
+.d-grid {
+  display: grid;
+}
+
+.d-grid-template-columns {
+	grid-template-columns: 50% 50%;
+}
+
+/* DISPLAY BLOCK ############################################### */
+.d-block {
+  display: block;
+}
 
 /* MARGIN / PADDING ################################## */
 
-/* padding 10 */
+/* margin 10 */
+.m-10 {
+  margin: 10px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.m-30 {
+  margin: 30px;
+}
+
+.m-40 {
+  margin: 40px;
+}
+
+
+/* margin top */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+
+/* margin bottom */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+
+
+/* padding */
 .p-10 {
   padding: 10px;
 }
 
-.pt-10 {
-  padding-top: 10px;
-}
-
-.pb-10 {
-  padding-bottom: 10px;
-}
-
-
-/* padding 20 */
 .p-20 {
   padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+
+/* padding top */
+.pt-10 {
+  padding-top: 10px;
 }
 
 .pt-20 {
   padding-top: 20px;
 }
 
-.pb-20 {
-  padding-bottom: 20px;
-}
-
-
-/* padding 30 */
-.p-30 {
-  padding: 30px;
-}
-
 .pt-30 {
   padding-top: 30px;
 }
 
-.pb-30 {
-  padding-bottom: 30px;
-}
-
-
-/* padding 40 */
-.p-40 {
-  padding: 40px;
-}
-
 .pt-40 {
   padding-top: 40px;
+}
+
+
+/* padding bottom */
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
 }
 
 .pb-40 {
@@ -95,7 +163,47 @@
 }
 
 
+/* BORDER / BOX-SHADOW ################################## */
+
+.border-top {
+  border-top: 1px solid #333;
+}
+
+.border-top-gray-light {
+  border-top: 1px solid #DDD;
+}
+
+
 /* border-radius 10 */
 .r-10 {
   border-radius: 10px;
+}
+
+.r-20 {
+  border-radius: 20px;
+}
+
+.r-30 {
+  border-radius: 30px;
+}
+
+
+/* box-shadow */
+.box-shadow-5 {
+  box-shadow: 1px 1px 5px #000;
+}
+
+.box-shadow-10 {
+  box-shadow: 1px 1px 10px #000;
+}
+
+
+/* LIST NORMALIZE ################################## */
+
+.list-normalize {
+  list-style: none;
+}
+
+.link-item {
+  text-decoration: none;
 }

@@ -1,3 +1,8 @@
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
 .bg-black {
   background-color: black;
   color: white;
@@ -5,9 +10,18 @@
 
 .bg-gray {
   background-color: #333;
+  color: #FFF;
 }
 
 .bg-yellow {
   background-color: #fbda16;
   color: #333;
+}
+
+.link-gray {
+  color: #666;
+}
+
+.link-gray:hover {
+  color: #222;
 }
